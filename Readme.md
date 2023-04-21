@@ -31,7 +31,7 @@ Follow the steps below to implement the Select All functionality in a row:
     </dx:GridViewDataCheckColumn>
     ```
 
-2. For all check box editors, handle their server-side `Init` events. In handlers, access an editor's template container and get the container's visible index. Based on that visible index, specify an editor's `ClientInstanceName` property and handle the client-side [CheckedChanged](https://docs.devexpress.com/AspNet/js-ASPxClientCheckBox.CheckedChanged) event.
+2. For all checkbox editors, handle their server-side `Init` events. In handlers, access an editor's template container and get the container's visible index. Based on that visible index, specify an editor's `ClientInstanceName` property and handle the client-side [CheckedChanged](https://docs.devexpress.com/AspNet/js-ASPxClientCheckBox.CheckedChanged) event.
 
     ```csharp
     protected void chbAll_Init(object sender, EventArgs e) {
