@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to implement the Select All functionality in a row
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4551/)**
+**[[Run Online]](https://codecentral.devexpress.com/128541407/)**
 <!-- run online end -->
 
 This example demonstrates how to add checkbox editors to templated columns and change their selection state to emulate the Select All functionality.
