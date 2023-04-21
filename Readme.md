@@ -1,4 +1,4 @@
-# Grid View fro ASP.NET Web Forms - How to implement the Select All functionality in a row
+# Grid View for ASP.NET Web Forms - How to implement the Select All functionality in a row
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e4551/)**
 <!-- run online end -->
