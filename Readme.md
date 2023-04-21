@@ -3,7 +3,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e4551/)**
 <!-- run online end -->
 
-This example demonstrates how to add check box editors to templated columns and change their selection state to emulate the Select All functionality.
+This example demonstrates how to add checkbox editors to templated columns and change their selection state to emulate the Select All functionality.
 
 ![SelectAll check box](SelectAllCheckbox.png)
 
@@ -11,7 +11,7 @@ This example demonstrates how to add check box editors to templated columns and 
 
 Follow the steps below to implement the Select All functionality in a row:
 
-1. Add check box columns to the grid, specify a column's [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) property,and add a check box editor to the template.
+1. Add checkbox columns to the grid, specify a column's [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) property, and add a checkbox editor to the template.
 
     ```aspx
     <dx:GridViewDataCheckColumn Caption="All">
