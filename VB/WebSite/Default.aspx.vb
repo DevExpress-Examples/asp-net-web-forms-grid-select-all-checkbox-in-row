@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web
@@ -9,6 +8,7 @@ Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
+
 	Protected Sub chbAll_Init(ByVal sender As Object, ByVal e As EventArgs)
 		Dim chb As ASPxCheckBox = TryCast(sender, ASPxCheckBox)
 		Dim container As GridViewDataItemTemplateContainer = TryCast(chb.NamingContainer, GridViewDataItemTemplateContainer)
